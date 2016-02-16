@@ -1,0 +1,23 @@
+{
+  "name": "es6-test",
+  "version": "1.0.0",
+  "description": "## Quadratic sequence generator ```sh node --harmony ./quadraticSequence.js {q} {n} ```",
+  "main": "quadraticSequence.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misak113/es6-test.git"
+  },
+  "author": "misak113",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misak113/es6-test/issues"
+  },
+  "homepage": "https://github.com/misak113/es6-test#readme",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "engine-strict": true
+}
