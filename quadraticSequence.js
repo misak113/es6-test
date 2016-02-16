@@ -17,10 +17,12 @@ function start() {
 	"use strict";
 	let an, nextAn = 1;
 	const sequenceGenerator = sequence(process.argv[2], process.argv[3]);
+	let n = 1;
 	do {
 		an = sequenceGenerator.next(nextAn);
 		nextAn = an.value || nextAn;
-		console.log('item', nextAn);
+		console.log('a' + n, nextAn);
+		n++;
 	} while (!an.done);
 }
 
